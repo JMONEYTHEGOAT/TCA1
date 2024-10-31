@@ -1,0 +1,33 @@
+#green {
+    background-color: green;
+}
+
+#red{ background-color: red;
+
+}
+
+#blue {
+    background-color: blue;
+}
+
+button {
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+
+body {
+        height: 100vh;
+        margin: 0;
+        background: repeating-linear-gradient(
+            45deg,
+            red,
+            orange 20%,
+            yellow 20%,
+            green 40%,
+            blue 40%,
+            indigo 60%,
+            violet 60%
+        );
+    }
+    
